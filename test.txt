@@ -1,3 +1,9 @@
 only the references are deleted. Even though the branch is actually removed on the remote the references to it still exists in the local repositories of your team members. This means that for other team members the deleted branches are still visible when they do a git branch -a.
 
 To solve this your team members can prune the deleted branches with
+
+
+FEW LINES IN COMMIT - 1
+The local branch X.
+The remote origin branch X.
+The local remote-tracking branch origin/X that tracks the remote branch X.
