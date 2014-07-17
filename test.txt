@@ -15,3 +15,5 @@ If you didn't delete your remote branch X from the command line (like above), th
 
 FEW LINES IN COMMIT - 3
 Alternatively, instead of pruning your obsolete local remote-tracking branches through git fetch -p, you can avoid making the extra network operation by just manually removing the branch(es) with the --remote or -r flags:
+
+added from origin-master
